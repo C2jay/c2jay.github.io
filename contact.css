@@ -95,6 +95,19 @@ p#foot{
     font-size: 30px;
 }
 
+img#text-image1{
+    float:right;
+    width: 250px;
+    height: auto;
+    padding: 25px;
+}
+
+img#text-image2{
+    width: 400px;
+    height: auto;
+    padding-bottom: 25px;
+}
+
 .form-container{
     display: flex;
     justify-content: center;
