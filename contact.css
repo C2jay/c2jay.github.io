@@ -128,6 +128,7 @@ p#foot{
 .form-item textarea {
     flex-basis: 50%;
     border: 2px solid #FDAA47;
+    width: 550px;
 }
 
 .form-item input:hover,
