@@ -10,6 +10,10 @@ html {
 
 #aboutme{
     font-size: 2vw;
+    
+}
+#aboutme-content{
+   padding: "2rem"
 }
 
 .flex-head-container{
@@ -84,7 +88,7 @@ p#foot{
 #heading{
     border-top: dashed 3px #FDAA47;
     border-bottom: dashed 3px #FDAA47;
-    padding: 0px;
+
     justify-content: space-between;
     flex-direction: column;
     background-color: #5A86AD ;
