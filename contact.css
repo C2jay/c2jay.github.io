@@ -33,7 +33,7 @@ h1 {
 }
 #blurb{
     font-family: 'Liu Jian Mao Cao', cursive;
-    font-size: 2vw;
+    font-size: 2.5vw;
     text-align: center;
     margin: 10px;
 }
@@ -156,7 +156,7 @@ img#text-image2{
     border: 2px solid #FDAA47;
     background-color: #FFF;
     padding: 5px;
-    font-size: 28px;
+    font-size: 3vw;
 }
 
 .form-item button:hover {
@@ -171,3 +171,92 @@ img#text-image2{
 
 /* MEDIA QUERIES HERE */
 
+@media(max-width: 600px){
+
+    html{
+        width: 100vw;
+    }
+    .navigation-bar{
+        font-size: 6vw;
+    }
+
+    .logo{
+        width: 30px;
+        height: 30px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    img#text-image1{
+        float:right;
+        width: 80px;
+        max-width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+    
+    img#text-image2{
+        width: 200px;
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .form-container{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .form-flex{
+        display: inline-flex;
+        flex-flow: column wrap;
+        align-items: center;
+        border: double 5px #FDAA47;
+        background-color: #5A86AD;
+        font-weight: bold;
+    }
+    
+    .form-item {
+        flex-wrap: column flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form-item label {
+        font-size: 5vw;
+        padding: 3px;
+    }
+    
+    .form-item input,
+    .form-item textarea {
+        flex-basis: 100%;
+        border: 2px solid #FDAA47;
+        width: 50vw;
+    }
+    
+    .form-item input:hover,
+    .form-item textarea:hover {
+        border: 2px solid #5A86AD;
+    }
+    
+    .form-item input,
+    .form-item textarea,
+    .form-item button {
+        border: 2px solid #FDAA47;
+        background-color: #FFF;
+        font-size: 5vw;
+    }
+    
+    .form-item button:hover {
+        border: 2px solid #FDAA47;
+        background-color: #C85A53;
+        color: #FFF;
+    }
+    
+    .form-item button {
+        width: 20vw;
+    }
+
+
+
+}
