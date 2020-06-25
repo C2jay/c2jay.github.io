@@ -168,3 +168,37 @@ form{
     flex-flow: column wrap;
     justify-content: center;
 }
+
+/* MEDIA QUERIES HERE */
+
+@media(max-width: 600px){
+
+    html{
+        width: 100vw;
+    }
+    .navigation-bar{
+        font-size: 6vw;
+    }
+
+    #blurb{
+        font-family: 'Liu Jian Mao Cao', cursive;
+        font-size: 4vw;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .logo{
+        width: 30px;
+        height: 30px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    p.project{
+        font-size: 4vw;
+ 
+    }
+    h3{
+        font-size: 5vw;
+
+    }
