@@ -41,12 +41,15 @@
 <!-- BODY OF PAGE IS HERE -->
 
         <div class= "flex-head-container" id="heading">        
-            <p id="aboutme"><img id="text-image1" src="leon.jpg" alt="my cat leon.">
-                My first foray into coding, admittedly unknowingly, was as a teenager formatting my livejournal. I added images and gifs, linked various pages, and worked to make an account that was as organised, readable and pretty as possible. 
-                <br>
-                <br>Classic teenager.
-                <br>
-                <br>These days I have taken a more active role as a student of programming. I am currently a member of the She Codes Plus cohort; a six-month course that transitions women into technological careers through integrated self-paced and facilitated instructions. Projects created throughout the course teach skills such as HTML/CSS, Python, React, Django and JavaScript. Below are projects that demonstrate my abilities in the above languages. As a former English/ESL teacher and writer, I aim to synthesise my written, organisational and interpersonal abilities with my growing technical skills to become an asset to my new workplace. </p>
+            <div id="aboutme"><img id="text-image1" src="leon.jpg" alt="my cat leon.">
+                <p id="aboutme-content">
+
+                    My first foray into coding, admittedly unknowingly, was as a teenager formatting my livejournal. I added images and gifs, linked various pages, and worked to make an account that was as organised, readable and pretty as possible. 
+                    <br>
+                    <br>Classic teenager.
+                    <br>
+                    <br>These days I have taken a more active role as a student of programming. I am currently a member of the She Codes Plus cohort; a six-month course that transitions women into technological careers through integrated self-paced and facilitated instructions. Projects created throughout the course teach skills such as HTML/CSS, Python, React, Django and JavaScript. Below are projects that demonstrate my abilities in the above languages. As a former English/ESL teacher and writer, I aim to synthesise my written, organisational and interpersonal abilities with my growing technical skills to become an asset to my new workplace. </div>
+                </p>
                 <img id="text-image2" src="cat-rotto.jpg" alt="Cat at the beach.">
         </div>
         
@@ -56,31 +59,21 @@
             </div>
         </div>
         
-        <div class="form-container">
-            <form class="form-flex" action="https://formspree.io/mgenzelo" method="POST">
+        <div id="wrapper">
 
-                <div class="form-item">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name">
-                </div>
-
-                <div class="form-item">
-                    <label for="mail">Email</label>
-                    <input type="email" id="mail" name="email">
-                </div>
-
-                <div class="form-item">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message"></textarea>
-                </div>
-
-                <div class="form-item">
-                    <button type="submit">Send!</button>
-                </div>
-        
-            </form>
+            <div id="contact_form_div">
+             <p id="contact_label">CONTACT  FORM</p>
+             <form method="post" action="https://formspree.io/mgenzelo" >
+              <p>
+                <input type="text" placeholder="Enter Name">
+            </p>
+              <p><input type="text" placeholder="Enter Email"></p>
+              <p><input type="text" placeholder="Enter Contact No"></p>
+              <p><textarea placeholder="Enter Message"></textarea></p>
+              <p><input type="submit" value="SUBMIT"></p>
+             </form>
+            </div>
         </div>
-
 
     </body>
 
