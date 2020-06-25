@@ -176,8 +176,14 @@ form{
     html{
         width: 100vw;
     }
+    
     .navigation-bar{
         font-size: 6vw;
+    }
+
+    .navigation-bar:hover{
+        color: palevioletred;
+        font-size: 6.5vw;
     }
 
     #blurb{

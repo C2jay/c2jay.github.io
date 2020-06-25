@@ -180,6 +180,11 @@ img#text-image2{
         font-size: 6vw;
     }
 
+    .navigation-bar:hover{
+        color: palevioletred;
+        font-size: 6.5vw;
+    }
+
     .logo{
         width: 30px;
         height: 30px;
