@@ -34,6 +34,7 @@ h1 {
 
 .blurb-container{
     justify-content: center;
+    margin-top: 2rem;
 }
 #blurb{
     font-family: 'Liu Jian Mao Cao', cursive;
